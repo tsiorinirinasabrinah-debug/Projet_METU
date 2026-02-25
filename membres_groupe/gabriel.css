@@ -1,1 +1,124 @@
+body{
+    margin: 0;
+    min-height: 50vh;
+    width: 100%;
+
+    background:linear-gradient(-45deg, #1f242d, #090f1b, #1c1546, #241e46,#1b1929);
+    block-size: 400% 400%;
+    animation: gradientMove 5s ease infinite;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 20px;
+    text-align: center;
+}
+        
+     @keyframes gradientMove {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; } 
+        100% { background-position: 0% 50%; }
+ }
+
+.in1{
+    text-transform: initial;
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: flex-start;
+
+    
+
+}
+h3{
+    color: aliceblue;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+.in2{
+   border: 2px solid white;
+   border-radius: 15px;
+   padding: 20px;
+   margin-bottom: 25px;
+   min-width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif ;
+    justify-content: flex-start;
+}
+h4{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.inn1{font-family:Arial, Helvetica, sans-serif ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    
+}
+
+.in3{
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
+    min-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif ;
+    justify-content: flex-start;
+}
+.inn1{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    text-decoration: none;
+    }
+.image{
+    width: 200px;
+    height: 200px ;
+    border-radius: 50%;
+    object-fit: cover;
+    mix-blend-mode: initial;
+    border-radius: 50%;
+}
+
+.lg{
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
+    min-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif ;
+    justify-content: flex-start;
+    
+}
+
+.line1{
+   border: 2px solid white;
+   border-radius: 15px;
+   padding: 20px;
+   margin-bottom: 25px;
+   min-width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+  
+
+}
+
+
 
