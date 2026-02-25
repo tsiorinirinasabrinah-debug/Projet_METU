@@ -1,0 +1,68 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body{
+    background: url(assets/fond.jfif)no-repeat fixed center/cover;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    background: rgb(4, 4, 32);
+    
+}
+h1{
+
+    font-size: 2.3em;
+    color: white;
+
+}
+nav{
+    display: flex;
+    gap: 100px;
+    font-size: 1.3em;
+    padding: 10px 20px;
+
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 80vh;
+
+}
+.image img{
+    width: 550px;
+    border-radius: 150PX;
+    
+}
+.description{
+    text-align: center;
+    margin: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+
+}
+.btn{
+    width: 200px;
+    padding: 5px;
+    margin: 0 auto;
+    a{
+        color: black;
+    }
+    
+}
